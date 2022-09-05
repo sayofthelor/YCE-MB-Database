@@ -1,0 +1,13 @@
+{
+	"songs": [
+		{
+			"scripts": [
+				"Golden Apple:/stages/disability"
+			],
+			"difficulties": [],
+			"end_cutscene": null,
+			"cutscene": null,
+			"name": "disability"
+		}
+	]
+}

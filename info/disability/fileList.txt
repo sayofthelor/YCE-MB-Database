@@ -1,0 +1,17 @@
+characters/dave/Character.hx
+characters/dave/Character.json
+characters/dave/icon.png
+characters/dave/spritesheet.png
+characters/dave/spritesheet.xml
+data/disability/disability.json
+data/freeplaySonglist.json
+images/disability.png
+shaders/disability.frag
+songs/disability/Inst.ogg
+songs/disability/Voices.ogg
+stages/disability.hx
+stages/disability.json
+config.json
+medals.json
+song_conf.json
+weeks.json
