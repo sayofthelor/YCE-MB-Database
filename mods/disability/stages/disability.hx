@@ -1,19 +1,10 @@
-import("WindowsAPI");
 var stage:Stage = null;
 var sprite:FlxSprite;
 var shader:CustomShader;
 var thing:Float;
-var transparency:Bool = true;
 function create() {
 	stage = loadStage('disability');
 	PlayState.insert(0, sprite = new FlxSprite(-650, -100).loadGraphic(Paths.image('disability')));
-	if (transparency) {
-		WindowsAPI.setWindowTransparencyColor(0, 255, 0, 255);
-		sprite.makeGraphic(9000, 9000, 0xff00ff00);
-		PlayState.boyfriend.antialiasing = false;
-		PlayState.gf.antialiasing = false;
-		PlayState.dad.antialiasing = false;
-	}
 	sprite.scale.set(1.65, 1.65);
 	shader = new CustomShader(Paths.shader('disability'));
 	shader.data.uSpeed.value = [2.0];
@@ -29,13 +20,11 @@ function update(elapsed) {
 	stage.update(elapsed);
 	PlayState.playerStrums.forEach(function(spr:StrumNote)
 		{
-			if (transparency) spr.antialiasing = false;
 			spr.angle += (Math.sin(elapsedTime * 2.5) + 1) * 5;
 			spr.set_notesAngle(0);
 		});
 	PlayState.cpuStrums.forEach(function(spr:StrumNote)
 		{
-			if (transparency) spr.antialiasing = false;
 			spr.angle += (Math.sin(elapsedTime * 2.5) + 1) * 5;
 			spr.set_notesAngle(0);
 		});
