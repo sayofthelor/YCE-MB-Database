@@ -1,0 +1,1 @@
+scripts = [mod + ":/stages/disability"];

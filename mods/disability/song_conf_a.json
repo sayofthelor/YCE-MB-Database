@@ -2,7 +2,7 @@
 	"songs": [
 		{
 			"scripts": [
-				"Golden Apple:/stages/disability"
+				"disability:/stages/disability"
 			],
 			"difficulties": [],
 			"end_cutscene": null,
