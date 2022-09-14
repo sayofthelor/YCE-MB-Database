@@ -1,0 +1,9 @@
+{
+    "name": "MB Template Mod",
+    "version": "1.0.0", 
+    "description": "Template mod for YCE Mod Browser",
+    "author": "sayofthelor",
+    "authorURL": "http://twitter.com/sayofthelor",
+    "requiresRestart": false,
+    "internalID": "mb_template_mod"
+}
