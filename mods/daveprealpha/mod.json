@@ -1,0 +1,9 @@
+{
+    "name": "Dave Pre Alpha",
+    "version": "1.0.0", 
+    "description": "The oldest version of Vs Dave and Bambi is ported to a different engine!",
+    "author": "Fazzy Games",
+    "authorURL": "https://bio.link/fazzygames",
+    "requiresRestart": false,
+    "internalID": "daveprealpha"
+}
